@@ -1,7 +1,7 @@
 
 # gdate for macOS
 # REF: https://apple.stackexchange.com/questions/135742/time-in-milliseconds-since-epoch-in-the-terminal
-COLOR_CODE="$ZSH_THEME_PASSION_COLOR_CODE"
+COLOR_CODE="${ZSH_THEME_PASSION_COLOR_CODE:="006"}";
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     {
