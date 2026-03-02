@@ -25,6 +25,18 @@ An oh-my-zsh theme;
 
 * see also: [Overriding and adding themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Customization#overriding-and-adding-themes);
 
+#### More Colors
+
+1. clone repo: ```git clone https://github.com/harui2019/ohmyzsh-theme-passion.git```;
+2. switch branch: ```git switch feat/colorful```;
+3. copy theme: ```cp ./ohmyzsh-theme-passion/passion-colorful.zsh-theme ~/.oh-my-zsh/themes/passion-colorful.zsh-theme```;
+4. modify rc: open ```~/.zshrc``` find ```ZSH_THEME``` edit to ```ZSH_THEME="passion-colorful"```;
+5. use `spectrum_ls` to check the color number from `000` to `255`.;
+6. set `ZSH_THEME_PASSION_COLOR_CODE` in ```~/.zshrc``` to apply the color, for example: ```ZSH_THEME_PASSION_COLOR_CODE=006``` (the default color code is `006` which is cyan color);
+7. execute rc: ```source ~/.zshrc```;
+
+![more_color.png](./demo/more_color.png)
+
 #### Trouble Shooting
 
 ##### macOS, command not found: gdate
